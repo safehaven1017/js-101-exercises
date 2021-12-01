@@ -4,3 +4,16 @@
 // integer return an empty array
 //
 // Name the function "finalFunction"
+
+function finalFunction (num) {
+    let arr = [];
+    if (isNumber(num) && num > 0) {
+        for (let i = 0; i < num; i++) {
+            arr.push('Big Bad Lachlan');
+        }
+        return arr;
+    }
+    else {
+        return arr;
+    }
+}

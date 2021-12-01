@@ -133,7 +133,7 @@ function testAdd(element) {
     const result1correct = lvl2exercise1(2, 3) !== 5;
     const result2correct = lvl2exercise1(99, 1) !== 100;
     const result3correct = lvl2exercise1(-10, 10) !== 0;
-    if (!result1correct || !result2correct || !result3correct) {
+    if (result1correct || result2correct || result3correct) {
       throw false;
     }
     showSuccess(element);
@@ -147,7 +147,7 @@ function testSubtract(element) {
     const result1correct = lvl2exercise2(2, 3) !== -1;
     const result2correct = lvl2exercise2(99, 1) !== 98;
     const result3correct = lvl2exercise2(-10, 10) !== -20;
-    if (!result1correct || !result2correct || !result3correct) {
+    if (result1correct || result2correct || result3correct) {
       throw false;
     }
     showSuccess(element);
@@ -161,7 +161,7 @@ function testMultiply(element) {
     const result1correct = lvl2exercise3(2, 3) !== 6;
     const result2correct = lvl2exercise3(99, 1) !== 99;
     const result3correct = lvl2exercise3(-10, 10) !== -100;
-    if (!result1correct || !result2correct || !result3correct) {
+    if (result1correct || result2correct || result3correct) {
       throw false;
     }
     showSuccess(element);
@@ -175,7 +175,7 @@ function testDivide(element) {
     const result1correct = lvl2exercise4(30, 3) !== 10;
     const result2correct = lvl2exercise4(99, 1) !== 99;
     const result3correct = lvl2exercise4(-10, 10) !== -1;
-    if (!result1correct || !result2correct || !result3correct) {
+    if (result1correct || result2correct || result3correct) {
       throw false;
     }
     showSuccess(element);
@@ -189,7 +189,7 @@ function testAssign(element) {
     const result1correct = lvl2exercise5(30) !== 32;
     const result2correct = lvl2exercise5(99) !== 101;
     const result3correct = lvl2exercise5(-10) !== -8;
-    if (!result1correct || !result2correct || !result3correct) {
+    if (result1correct || result2correct || result3correct) {
       throw false;
     }
     showSuccess(element);
